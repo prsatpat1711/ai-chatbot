@@ -4,10 +4,9 @@ import styles from "./Home.module.css";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import Answer from "../../components/Answer/Answer";
 import Question from "../../components/Question/Question";
-import Form from "react-bootstrap/Form";
 import { IconButton } from "@mui/material";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
-import axios from "axios";
+
 
 interface MessageIntf {
   question: string;
