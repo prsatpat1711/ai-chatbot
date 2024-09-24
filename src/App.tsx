@@ -1,15 +1,14 @@
 import './App.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './pages/home/Home'
 
 function App() {
-
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
-        <Route path='/' element={<Home/>} />
-        </Routes>
-    </BrowserRouter>
+        <Route path='/' element={<Home />} />
+      </Routes>
+    </Router>
   )
 }
 
